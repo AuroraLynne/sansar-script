@@ -22,10 +22,14 @@ namespace ScriptLibrary
     {
         #region EditorProperties
         /*
+		 * 
+		 * 
         [Tooltip("Additional Event for Doing Somthing This with the agent. Can be a comma separated list of event names.")]
         [DefaultValue("")]
         [DisplayName("-> Start SomethingElse This with Agent")]
         public readonly string StartDoingElseEvent;
+
+
         */
         [Tooltip("Start Doing This with the agent. Can be a comma separated list of event names.")]
         [DefaultValue("on")]
